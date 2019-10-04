@@ -1,4 +1,4 @@
-# rtl8821CU-wifi-driver
+# rtl8812au-wifi-driver
 WiFi driver for EDUP EP-DB1607 600MBps WiFi Module for Linux. Tested on Intel Up board with Linux Ubuntu 16.04.5 LTS.
 
 Follow this:

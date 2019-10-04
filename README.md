@@ -18,6 +18,12 @@ sudo dkms build -m rtl8812au -v 4.2.2
 sudo dkms install -m rtl8812au -v 4.2.2
 ```
 
+3. Restart your system
+```
+sudo reboot
+```
+
+
 ***
 
 Original rights to this driver are reserved to [gnab](https://github.com/gnab/rtl8812au)

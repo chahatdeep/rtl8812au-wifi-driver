@@ -18,7 +18,12 @@ sudo dkms build -m rtl8812au -v 4.2.2
 sudo dkms install -m rtl8812au -v 4.2.2
 ```
 
-3. Restart your system
+3. Automatically load at boot:
+```sh
+$ echo 8812au | sudo tee -a /etc/modules
+```
+
+4. Restart your system
 ```
 sudo reboot
 ```
